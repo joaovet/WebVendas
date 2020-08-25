@@ -10,6 +10,8 @@ namespace WebVendas.Controllers
     {
         public IActionResult Index()
         {
+            ViewData["Mensagem"] = "Esta e um pgn teste";
+            ViewData["Email"] = "jv9090@gmail.com";
             return View();
         }
     }
